@@ -8,7 +8,7 @@ Do princípio, [OPSEC](https://www.fortinet.com/br/resources/cyberglossary/opera
 
 "OPSEC é um processo sistemático que pode ser aplicado por organizações para negar a potenciais adversários informações sobre capacidades e intenções, por meio da identificação, do controle e da proteção de informações e evidências, geralmente não classificadas, do planejamento e da execução de atividades sensíveis e classificadas." ([*The National OPSEC Program*](https://media.defense.gov/2021/Jun/29/2002751705/-1/-1/0/THE_NATIONAL_OPSEC_PROGRAM.PDF), NSA.)
 
-Dito de outra forma, OPSEC é saber o que esconder, como esconder e o que emular -- quando necessário. São as roupas que escondem a vergonha do homem. É o segredo nunca revelado. É o que só contamos a pessoas específicas, de forma parcial e estratégica. É ser maquiavelicamente reservado quanto aos próprios dados e informações, sobre o que é mostrado, dito: por palavras, coordenadas, metadados, códigos, imagens ou áudios, ou até mesmo, gestos, formas de ser.
+Dito de outra forma, OPSEC é saber o que esconder, como esconder e o que emular — quando necessário. São as roupas que escondem a vergonha do homem. É o segredo nunca revelado. É o que só contamos a pessoas específicas, de forma parcial e estratégica. É ser maquiavelicamente reservado quanto aos próprios dados e informações, sobre o que é mostrado, dito: por palavras, coordenadas, metadados, códigos, imagens ou áudios, ou até mesmo, gestos, formas de ser.
 
 Assim, deve-se saber que OPSEC é útil e indispensável tanto ao sujeito que almeja estar a uns dois, três ou cem passos (a depender da aplicação dessas técnicas/táticas) à frente de um agente malicioso, quanto a estados-nações e empresas de pequeno, médio ou grande porte, que certamente têm muito a perder. Para esse artigo, estou pensando em pessoas, de usuários comuns àqueles que já têm algum conhecimento disto que estamos tratando.
 
@@ -36,7 +36,7 @@ Pense bem no que digita, em como digita e, principalmente, onde e para quem digi
 
 **Metadados. Todos os arquivos que criamos, baixamos e acessamos possuem metadados**, dos textos simples em txt aos pdfs, vídeos e imagens. Esses dados podem ser inseridos, removidos ou editados, e incluir nomes de usuário, emails, comentários, informações do dispositivo, horários e fusos horários, geolocalização, etc., como demonstrado abaixo:
 
-```javascript
+```console
 ┌─[parrot@parrot]─[~/Documents/Security/CTFs/thm-osintchallengeiv]
 └──╼ $exiftool task-3/landmark-1763035881792.JPG
 File Name                       : landmark-1763035881792.JPG
@@ -112,7 +112,7 @@ Sites como o [WhatsMyName Web](https://whatsmyname.app/) e ferramentas como o [S
 
 Só o WhatsMyName foi atrás do user fornecido 653 vezes! A saída do Sherlock foi igualmente numerosa, embora aqui tenha sido resumida:
 
-```javascript
+```console
 ┌─[parrot@parrot]─[~]
 └──╼ $sherlock armidge
 [*] Checking username armidge on:
@@ -139,4 +139,4 @@ Lembre-se, também, de **sempre checar as credenciais de acesso das câmeras de 
 
 Por fim, **há uma infinidade de alternativas ao Google (do navegador ao buscador)**. Embora nem todas sejam tão responsivas quanto o que entregam, asseguram algum nível (geralmente a mais) de privacidade. O [DuckDuckGo](https://duckduckgo.com/), o [Brave](https://search.brave.com/), o [Ahmia](https://ahmia.fi/) e o [Torch](http://xmh57jrknzkhv6y3ls3ubitzfqnkrwxhopf5aygthi7d6rplyvk3noyd.onion/) são exemplos disso. Os dois primeiros são navegadores/buscadores. Esses dois últimos, para buscas na rede Tor. Como navegador, o [Firefox](https://www.firefox.com/pt-BR/) também é uma ótima alternativa.
 
-De momento, isso é só. E o mínimo. Links úteis e recursos: [\_04xOPSEC](https://example.com/repo/_04xOPSEC).
+De momento, isso é só. E o mínimo. Links úteis e recursos: [_04xOPSEC](https://github.com/Armidge/_04xOPSEC).
